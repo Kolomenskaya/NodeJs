@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<style>
+    
+    * {
+        margin: 0;
+        font-family: 'Source Sans Pro';
+        text-transform: uppercase;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .kitty {
+        background-image: url(cats.jpg);
+        background-size: cover;
+        height:698px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        margin-top: 20px;
+        font-size: 35px;   
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+        height: 230px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 30px;   
+        color: black;
+        margin-top: 30px;
+        border:1px dotted black; 
+        padding: 0px 5px 0px 5px;
+    }
+
+    .menu {
+        height: 50px;
+        background-color: #634790;
+    }
+</style>
+<body>
+    <header class="menu"></header>
+    <div class="text">
+        <h1>Здесь нет того, что вы искали</h1>
+        <h2>Зато есть котики</h2>
+        <a href="">обратно на сайт</a>
+    </div>
+    <div class="kitty"></div>
+</body>
+</html>

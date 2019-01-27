@@ -1,0 +1,3 @@
+Date ${(new Date()).toString()}Request method ${obj.method}Request params ${obj.params}
+Date ${(new Date()).toString()}Request method ${obj.method}Request params ${obj.params}
+Date ${(new Date()).toString()}Request method ${obj.method}Request params ${obj.params}
